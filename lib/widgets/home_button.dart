@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class HomeButton extends StatelessWidget {
-  IconData iconButton;
-  String textButton;
-  Widget screen;
+  final IconData iconButton;
+  final String textButton;
+  final Widget screen;
 
-  HomeButton({
+  const HomeButton({
     Key? key,
     required this.iconButton,
     required this.textButton,

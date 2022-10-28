@@ -1,4 +1,4 @@
-import 'package:adm_empresas/features/splashscreen.dart';
+import 'package:adm_empresas/features/splash/splashscreen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {

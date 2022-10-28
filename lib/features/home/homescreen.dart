@@ -1,9 +1,10 @@
-import 'package:adm_empresas/features/delete_screen.dart';
-import 'package:adm_empresas/features/list_screen.dart';
-import 'package:adm_empresas/features/registration_screen.dart';
-import 'package:adm_empresas/features/search_screen.dart';
+import 'package:adm_empresas/features/home/delete_screen.dart';
+import 'package:adm_empresas/features/home/list_screen.dart';
+import 'package:adm_empresas/features/home/search_screen.dart';
 import 'package:adm_empresas/widgets/home_button.dart';
 import 'package:flutter/material.dart';
+
+import 'registration_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
